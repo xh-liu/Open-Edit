@@ -3,7 +3,7 @@
 [Xihui Liu](https://xh-liu.github.io), Zhe Lin, Jianming Zhang, Handong Zhao, Quan Tran, Xiaogang Wang, and Hongsheng Li.<br>
 Published in ECCV 2020.
 
-### [Paper]() | [1-minute video](https://youtu.be/8E3bwvjCHYE)
+### [Paper](https://arxiv.org/pdf/2008.01576.pdf) | [1-minute video](https://youtu.be/8E3bwvjCHYE)
 
 ![results](results.jpg)
 
