@@ -1,0 +1,13 @@
+checkpoints/
+datasets/
+results/
+*.tar.gz
+*.pth
+*.zip
+*.pkl
+*.pyc
+*/__pycache__/
+*_example/
+visual_results/
+test_imgs/
+web/
