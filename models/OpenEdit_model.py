@@ -25,7 +25,6 @@ class OpenEditModel(torch.nn.Module):
 
         self.generator = opt.netG
 
-        self.noise_range = opt.noise_range
         if self.perturbation:
             self.netP = PerturbationNet(opt)
             self.netP.cuda()
