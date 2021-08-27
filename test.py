@@ -99,7 +99,8 @@ for iter_cnt in range(optimize_iter):
     print(message)
 
 # manipulation results after optimizing perturbations
-visuals['optimized'] = open_edit_optimizer.get_latest_generated()[0]
+manipulated_opt = open_edit_optimizer.open_edit_model(data, mode='manipulate', ori_cap=ori_txt, new_cap=new_txt, alpha=alpha)
+visuals['optimized_manipulated'] = manipulated_opt[0]
 
 
 visualizer.save_images(webpage, visuals, [opt.img_path], gray=True)
