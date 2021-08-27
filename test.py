@@ -24,8 +24,6 @@ opt.gpu = 0
 
 ori_cap = opt.ori_cap.split()
 new_cap = opt.new_cap.split()
-import pdb
-pdb.set_trace()
 global_edit = False
 
 alpha = 5
@@ -88,7 +86,7 @@ visuals['reconstructed'] = reconstructed
 
 # manipulate without optimizing perturbations
 manipulated_ori = open_edit_optimizer.open_edit_model(data, mode='manipulate', ori_cap=ori_txt, new_cap=new_txt, alpha=alpha)
-visuals['manipulated_ori'] = manipulated_ori[0][0]
+visuals['manipulated_ori'] = manipulated_ori[0]
 
 # optimize perturbations
 for iter_cnt in range(optimize_iter):
